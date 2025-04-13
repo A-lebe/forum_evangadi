@@ -220,7 +220,7 @@ function Register() {
       // );
 
       const response = await axios.post(
-        "https://evangadiforum-gkrv.onrender.com/api/users/register",
+        "/api/users/register",
         payload,
         {
           headers: {

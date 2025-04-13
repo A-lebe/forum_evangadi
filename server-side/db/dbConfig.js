@@ -9,10 +9,10 @@ const dbConnection = mysql2.createPool({
   // password: process.env.PASSWORD,
 
   //for remote
-  password: "evan_$_Forum2",
-  database: "digitatb_evangadi_forum",
-  user: "digitatb_evangad",
-  host: "192.250.234.71",
+  password: "@Mu816683",
+  database: "u995496244_Evangadi_forum",
+  user: "u995496244_Evangadi_admin",
+  host: "193.203.166.181",
 
   // password: "123456",
   // database: "evangadi_forum",

@@ -5,6 +5,10 @@ const app = express();
 const cors = require("cors");
 const port = 7700;
 
+console.log("EMAIL_USER:", process.env.EMAIL_USER);
+console.log("EMAIL_PASS:", process.env.EMAIL_PASS);
+
+
 const corsOptions = {
   origin: "*", // This is too permissive for production
   credentials: false,

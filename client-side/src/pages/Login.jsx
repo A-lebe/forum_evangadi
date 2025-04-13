@@ -70,7 +70,7 @@ function Login() {
 
     try {
       const { data } = await axios.post(
-        "https://evangadiforum-gkrv.onrender.com/api/users/login",
+        "https:/api/users/login",
         {
           email: emailValue,
           password: passValue,
@@ -106,7 +106,7 @@ function Login() {
       if (errorMessage === "Invalid credentials") {
         try {
           const checkEmailResponse = await axios.post(
-            "https://evangadiforum-gkrv.onrender.com/users/check-email",
+            "https:users/check-email",
             { email: emailValue },
             {
               headers: {
